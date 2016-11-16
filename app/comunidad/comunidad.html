@@ -1,0 +1,24 @@
+<div>
+Comunidad Educativa del CEIP Santa Cecilia
+Espinosa de los Monteros
+</div>
+
+
+    <!--<ul>-->
+        <!--<li ng-repeat="comunidad in comunidad track by $index" >{{comunidad}}</li>-->
+    <!--</ul>-->
+    <div id="main">
+        <section id="one" class="tiles">
+
+            <article ng-repeat="comunidad in comunidad track by $index">
+        <span class="image">
+            <img ng-src="{{generarimagen($index+1)}}" alt="" />
+        </span>
+                <header class="major">
+                    <h3><a href="landing.html" class="link">{{comunidad}}</a></h3>
+                    <p>Ipsum dolor sit amet</p>
+                </header>
+            </article>
+        </section>
+    </div>
+

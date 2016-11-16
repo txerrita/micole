@@ -1,0 +1,22 @@
+<div>
+Cursos del CEIP Santa Cecilia
+Espinosa de los Monteros
+</div>
+
+<div id="main">
+<section id="one" class="tiles">
+    <!--<ul>-->
+        <!--<li ng-repeat="curso in cursos track by $index" >{{curso}}</li>-->
+    <!--</ul>-->
+
+    <article ng-repeat="curso in cursos track by $index">
+        <span class="image">
+            <img ng-src="{{generarimagen($index+1)}}" alt="" />
+        </span>
+        <header class="major">
+            <h3><a href="landing.html" class="link">{{curso}}</a></h3>
+            <p>Ipsum dolor sit amet</p>
+        </header>
+    </article>
+</section>
+</div>

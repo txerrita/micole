@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CEIP Santa Cecilia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="scss/style.css" rel="stylesheet">-->
+</head>
+<body ng-app="colegio">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="#/">Inicio</a></li>
+            <li><a href="#/cursos">Cursos</a></li>
+            <li><a href="#/comunidad">Comunidad</a></li>
+            <li><a href="#/servicios">Servicios</a></li>
+        </ul>
+        <ul class="actions vertical">
+            <li><a href="#" class="button special fit">Get Started</a></li>
+            <li><a href="#" class="button fit">Log In</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>Hi, my name is Forty</h1>
+            </header>
+            <div class="content">
+                <p>A responsive site template designed by HTML5 UP<br />
+                    and released under the Creative Commons.</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div ng-view></div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</div>
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+<script src="bower_components/angular-route/angular-route.min.js" type="text/javascript"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
+<script src="app/app.js" type="text/javascript"></script>
+
+
+<!--Controladores-->
+<script src="app/main/main.js" type="text/javascript"></script>
+<script src="app/cursos/cursos.js" type="text/javascript"></script>
+<script src="app/servicios/servicios.js" type="text/javascript"></script>
+<script src="app/comunidad/comunidad.js" type="text/javascript"></script>
+
+<!--Servicios-->
+<script src="app/factory/dataservice.js" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>
